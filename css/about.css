@@ -68,8 +68,8 @@ body {
 .testi-img {
   margin-right: 80px;
   border-radius: 50%;
-  -webkit-box-shadow: var(--primary-bshadow);
-  box-shadow: var(--primary-bshadow);
+  -webkit-box-shadow: var(--orange-bshadow);
+  box-shadow: var(--orange-bshadow);
 }
 .testi-img img {
   width: 300px;
@@ -82,7 +82,7 @@ body {
 }
 .testi-quote i {
   font-size: 50px;
-  color: var(--primary);
+  color: var(--orange);
   display: inline-block;
   margin-bottom: 30px;
 }

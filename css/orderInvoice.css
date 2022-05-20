@@ -63,7 +63,7 @@
   .back-home a {
     margin-top: 10px;
     font-weight: 500;
-    color: var(--primary);
+    color: var(--orange);
   }
   .back-home a:hover {
     text-decoration: underline;

@@ -4,7 +4,7 @@
 }
 .error-part h1 {
   margin-bottom: 10px;
-  color: var(--primary);
+  color: var(--orange);
 }
 .error-part img {
   margin-bottom: 30px;
@@ -22,7 +22,7 @@
   border-radius: 8px;
   letter-spacing: 0.3px;
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
   text-transform: uppercase;
 }
 @media (max-width: 767px) {

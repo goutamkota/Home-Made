@@ -33,7 +33,7 @@
   text-transform: capitalize;
 }
 .author-mail {
-  color: var(--primary);
+  color: var(--orange);
   margin-bottom: 10px;
   margin-left: 10px;
   font-weight: 400;
@@ -57,7 +57,7 @@
 }
 .author-social li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
 }
 .author-bio {
   margin-bottom: 30px;
@@ -92,14 +92,14 @@
   -o-transition: all linear 0.3s;
 }
 .author-meta li:hover {
-  background: var(--primary);
+  background: var(--orange);
   color: var(--white);
 }
 .author-meta li:hover i {
   color: var(--white);
 }
 .author-meta li i {
-  color: var(--primary);
+  color: var(--orange);
   margin-right: 6px;
   font-size: 16px;
   transition: all linear 0.3s;

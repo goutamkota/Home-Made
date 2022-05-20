@@ -35,7 +35,7 @@
   margin: 0px;
 }
 .blog-details-meta li i {
-  color: var(--primary);
+  color: var(--orange);
   margin-right: 10px;
   font-size: 16px;
 }
@@ -54,7 +54,7 @@
   -o-transition: all linear 0.3s;
 }
 .blog-details-meta li a:hover {
-  color: var(--primary);
+  color: var(--orange);
 }
 .blog-details-title {
   line-height: 44px;
@@ -79,7 +79,7 @@
   top: 60px;
   font-size: 60px;
   font-family: "icofont";
-  color: var(--primary);
+  color: var(--orange);
 }
 .blog-details-quote p {
   font-size: 28px;
@@ -162,7 +162,7 @@
 }
 .blog-details-share li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
 }
 .blog-details-tag li span {
   font-size: 18px;
@@ -190,7 +190,7 @@
 }
 .blog-details-tag li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
 }
 .blog-details-profile {
   padding: 50px;
@@ -212,7 +212,7 @@
 .blog-details-profile h4 {
   font-size: 15px;
   font-weight: 400;
-  color: var(--primary);
+  color: var(--orange);
   margin-bottom: 15px;
 }
 .blog-details-profile ul {
@@ -240,7 +240,7 @@
 }
 .blog-details-profile ul li a:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
 }
 .blog-details-profile p {
   font-size: 17px;
@@ -271,7 +271,7 @@
 }
 .blog-details-prev h4 a:hover,
 .blog-details-next h4 a:hover {
-  color: var(--primary);
+  color: var(--orange);
 }
 .blog-details-prev .nav-arrow,
 .blog-details-next .nav-arrow {
@@ -290,7 +290,7 @@
 .blog-details-prev .nav-arrow:hover,
 .blog-details-next .nav-arrow:hover {
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
 }
 .blog-details-next {
   text-align: right;
@@ -330,7 +330,7 @@
 .comment-avatar {
   border-radius: 50%;
   margin-right: 20px;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--orange);
 }
 .comment-avatar img {
   width: 65px;
@@ -347,7 +347,7 @@
   -o-transition: all linear 0.3s;
 }
 .comment-meta a:hover {
-  color: var(--primary);
+  color: var(--orange);
 }
 .comment-meta span {
   display: block;
@@ -382,7 +382,7 @@
   padding: 6px 15px;
   border-radius: 6px;
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
   text-transform: capitalize;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;

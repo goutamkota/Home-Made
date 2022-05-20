@@ -9,7 +9,7 @@
   padding: 10px 25px;
   border-radius: 8px;
   color: var(--white);
-  background: var(--primary);
+  background: var(--orange);
 }
 .blog-btn:hover {
   color: var(--white);

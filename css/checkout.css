@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 .checkout-charge ul {
-  border-top: 3px solid var(--primary);
+  border-top: 3px solid var(--orange);
 }
 .checkout-charge ul li {
   padding: 15px 15px;
@@ -32,7 +32,7 @@
 .checkout-charge ul li:last-child span {
   font-size: 18px;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--orange);
 }
 .checkout-charge ul li span {
   font-weight: 500;
@@ -68,7 +68,7 @@
   line-height: 22px;
 }
 .checkout-check label a {
-  color: var(--primary);
+  color: var(--orange);
 }
 .checkout-check label a:hover {
   text-decoration: underline;
