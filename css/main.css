@@ -5806,7 +5806,7 @@ tbody tr td:last-child {
   display: -ms-grid;
   display: grid;
   grid-gap: 10px;
-  -ms-grid-columns: (1fr) [2];
+  -ms-grid-columns: (1fr) [];
   grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: auto;
   grid-template-rows: auto;
