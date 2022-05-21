@@ -595,10 +595,10 @@ button:focus {
 /* custom megamenu kota */
 .mymgmn{
   position: absolute;
-  top: 17% !important;
+  top: 10% !important;
   left: 50%;
   z-index: 2;
-  width: 900px;
+  width: 1000px;
   border-radius: 8px;
   padding: 30px;
   background: var(--white);
@@ -609,7 +609,7 @@ button:focus {
   transform: translateX(-50%);
   visibility: hidden;
   opacity: 0;
-  transition: all linear 0.3s;
+  /* transition: all linear 0.3s; */
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
@@ -617,6 +617,10 @@ button:focus {
 }
 
 .megamenu-scroll {
+  height: 380px;
+  overflow-y: hidden;
+}
+.mymgmn-scroll {
   height: 380px;
   overflow-y: scroll;
 }
