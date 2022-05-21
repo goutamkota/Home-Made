@@ -199,10 +199,25 @@
   border-radius: 7px;
 }
 
-.blue{
+.logi{
   background-color: #011936;
   color: white;
   padding: 5px 10px;
+  border-color: #011837;
+}
+
+.btn-outline.blue {
+  color: #011936;
+  border-color: #011936;
+}
+
+.btn-outline.blue:hover {
+  background-color: #011936;
+}
+
+.btn-outline:hover {
+  color: var(--white);
+  background: var(--primary);
 }
 .home-category-slider a img {
   width: 100%;
@@ -344,3 +359,73 @@
   font-size: 30px;
   line-height: 36px;
 }
+.top-seller .suggest-card img {
+  width: 50%;
+  border-radius: 5px;
+  float: right;
+}
+
+.top-seller .suggest-card::before {
+  display: none;
+}
+
+.top-seller .suggest-card h5 {
+  position: relative;
+  transform: none;
+  top: auto;
+  left: auto;
+  width: 100%;
+  text-align: left;
+}
+
+.top-seller {
+  margin-bottom: 130px;
+}
+
+.banner-part {
+  margin-top: 60px;
+}
+
+.top-seller .suggest-slider li {
+  align-items: center;
+  margin: 0px 10px;
+  display: flex !important;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.top-seller .img img {
+  max-width: 100%;
+}
+
+.top-seller .suggest-slider .btn-outline {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #E86121;
+  border: 0;
+  padding: 7px 14px;
+  width: auto;
+  margin-top: 25px;
+  border-radius: 3px;
+}
+
+.top-seller .suggest-slider .btn-outline:hover {
+  background-color: #FFAB10;
+}
+
+.top-seller .suggest-slider h5 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.top-seller .suggest-slider h5 span {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+
+/* trial kot */
