@@ -337,7 +337,6 @@ button:focus {
   text-transform: uppercase;
   padding: 14px 32px;
   border-radius: 6px;
-  border: 2px solid var(--orange);
 }
 .btn:focus {
   -webkit-box-shadow: none !important;

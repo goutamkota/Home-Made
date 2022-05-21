@@ -139,3 +139,94 @@ p {
     color: #ffffff;
     background-color: var(--orange);
 }
+
+.sellerViewCard{
+    padding: 30px;
+    border-radius: 15px;
+}
+.sellerViewCard h5{
+    font-size: 7mm;
+    margin-bottom: 10px;
+}
+.sellerViewCard a{
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(255, 123, 0);
+    background-color: #E86121;
+    color: white;
+}
+.sellerViewCard a:hover{
+    background-color: white;
+    color: black;
+}
+.top-seller .img img {
+    max-width: 100%;
+}
+.top-seller .suggest-card img {
+    width: 50%;
+    border-radius: 5px;
+    float: right;
+}
+
+.top-seller .suggest-card::before {
+    display: none;
+}
+
+.top-seller .suggest-card h5 {
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.top-seller {
+    margin-bottom: 130px;
+}
+
+.banner-part {
+    margin-top: 60px;
+}
+
+.top-seller .suggest-slider li {
+    align-items: center;
+    margin: 0px 10px;
+    display: flex !important;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.top-seller .img img {
+    max-width: 100%;
+}
+
+.top-seller .suggest-slider .btn-outline {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #E86121;
+    border: 0;
+    padding: 7px 14px;
+    width: auto;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.top-seller .suggest-slider .btn-outline:hover {
+    background-color: #FFAB10;
+}
+
+.top-seller .suggest-slider h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.top-seller .suggest-slider h5 span {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
