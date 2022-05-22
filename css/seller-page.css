@@ -1,0 +1,71 @@
+.bannerImg {
+  transform: scale(0.7);
+  margin-left: 10%;
+}
+
+.head1 {
+  font-size: 3.7rem;
+  font-weight: bolder;
+  line-height: 120%;
+}
+.bannerLett {
+  width: 90%;
+  margin: 20%;
+}
+.head3 {
+  margin: 15px 3px;
+}
+
+.bg-orange {
+  background-color: #e86121;
+}
+.quotes {
+  background-image: url("../images/home/category/01.jpg");
+  height: 200px;
+  width: 70%;
+  border-radius: 15px;
+}
+.htsh {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.myHtshr img {
+  transform: scale(0.6);
+}
+
+@media (max-width: 575px) {
+  .myHtshr .icon {
+    transform: rotate(90deg);
+    margin-left: 40%;
+  }
+  .myHtshr img {
+    margin-left: 17%;
+  }
+  .myHtshr .cont{
+      padding: 15px;
+      text-align: center;
+  }
+  
+}
+.myHtshr .cont{
+    margin-bottom: 30px;
+}
+.mycd {
+  border-radius: 15px;
+}
+.mycd .mr{
+    margin-right: 30px;
+}
+.cont {
+  padding: 20px 0px;
+}
+
+.sizing{
+    display: grid;
+}
+.section3{
+    margin-top: 100px;
+}
+.p4{
+    padding: 50px;
+}
