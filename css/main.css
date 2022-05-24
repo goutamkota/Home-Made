@@ -617,7 +617,7 @@ button:focus {
 
 .megamenu-scroll {
   height: 380px;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 .mymgmn-scroll {
   height: 380px;
