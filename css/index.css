@@ -534,3 +534,25 @@
 .u:hover{
   text-decoration: underline;
 }
+
+.mycarostyle{
+  border-radius: 10%;
+  width: 95%;
+  margin: 2.5%;
+}
+.product-media{
+  display: flex;
+  justify-content: center;
+}
+.care-img .content a{
+  display: flex;
+  justify-content: center;
+}
+.care-img h2{
+  text-align: center;
+}
+
+.care-img span{
+display: flex;
+justify-content: center;
+}
